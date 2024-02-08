@@ -1,6 +1,6 @@
 # myshell
 OS LAB 2
-Zainab Nomani - 100784761
+Zainab Nomani - 100784761 || 
 Navdeep Virdi - 
 
 **myshell.c commands**
