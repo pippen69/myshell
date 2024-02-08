@@ -1,4 +1,4 @@
-#include <stdio.h>
+in#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
@@ -57,8 +57,8 @@ void cd_command(char *directory){
 	}
 	}
 
-void echo_command(char *comment){
-printf("%s\n", comment);
+void echo_command(char *userinput){
+printf("%s\n", userinput);
 }
 
 void help_command(){
