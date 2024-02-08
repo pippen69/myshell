@@ -1,7 +1,8 @@
-in#include <stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
 #include <unistd.h>
+#include <sys/wait.h>
 #include <dirent.h>
 #include "myshell.h"
 
@@ -57,8 +58,8 @@ void cd_command(char *directory){
 	}
 	}
 
-void echo_command(char *userinput){
-printf("%s\n", userinput);
+void echo_command(char *comment){
+printf("%s\n", comment);
 }
 
 void help_command(){
@@ -84,10 +85,8 @@ printf("exit shell");
 exit(0);
 }
 	
-	
 int main(){
 	char input [1024];
-
 	while(1){
 		printf("MyShell>");
 		if(fgets(input, sizeof(input), stdin) == NULL){
