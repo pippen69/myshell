@@ -33,7 +33,7 @@ void cd_command(char *directory){
 	
 //change directory
 	void lsdir_command(char *directory){
-	if (directory == NUL){
+	if (directory == NULL){
 	directory = "no";
 	}
 	DIR *dir = opendir(directory);
@@ -51,7 +51,7 @@ void cd_command(char *directory){
 	void environ_command(){
 	extern char **environ; //extern is used for storing a class outside 
 	char **env = environ;
-	while (**env != NULL){
+	while (**env != '\0'){
 	printf("%s\n", *env);
 	env++;
 	}
@@ -128,11 +128,6 @@ int main(){
 		}
 		
 	}
-
-		
-	}
 	}
 	return 0;
 }
-
-
