@@ -1,7 +1,7 @@
 # myshell
 OS LAB 2
 Zainab Nomani - 100784761 || 
-Navdeep Virdi - 
+Navdeep Virdi - 100827233
 
 **myshell.c commands**
 - cd: change direcotry
