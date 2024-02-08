@@ -5,8 +5,8 @@ Navdeep Virdi -
 
 **myshell.c commands**
 - cd: change direcotry
-- dir: list contents of directory
-- clr: clear the page
+- lsdir: list contents of directory
+- clear: clear the page
 - environ: list environment strings
 - echo: reepeat input
 - help: user manual 
