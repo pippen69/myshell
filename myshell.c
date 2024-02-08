@@ -49,7 +49,7 @@ void cd_command(char *directory){
 	}
 //environment varible
 	void environ_command(){
-	extern char **environ;
+	extern char **environ; //extern is used for storing a class outside 
 	char **env = environ;
 	while (**env != NULL){
 	printf("%s\n", *env);
