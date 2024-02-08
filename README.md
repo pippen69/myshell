@@ -1,4 +1,7 @@
 # myshell
+OS LAB 2
+Zainab Nomani - 100784761
+Navdeep Virdi - 
 
 **myshell.c commands**
 - cd: change direcotry
@@ -11,3 +14,4 @@
 - pause: pause the operation
 
 **myshell.h**
+
