@@ -9,28 +9,28 @@
 //header file contains all declarations and constants
 
 	//change directory
-	void change_directory(char *path);
+	void cd_command(char *directory);
 	
 	// clear screen
-	void clr();
+	void clear_command();
 	
 	//see contents in directory 
-	void dir();
+	void lsdir_command(char *directory);
 	
 	//list environment strings
-	void environ();
+	void environ_command();
 	
 	//echo
-	void echo();
+	void echo_command(char *comment);
 	
 	//help
-	void help();
+	void help_command();
 	
 	//pause
-	void my_pause();
+	void pause_command();
 	
 	//quit
-	void quit();
+	void quit_command();
 	
 
 
