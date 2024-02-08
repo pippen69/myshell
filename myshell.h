@@ -6,6 +6,9 @@
 #include <string.h>
 #include <unistd.h>
 
+#define MAX_BUFFER 2000
+#define MAX_ARGS 100
+
 //header file contains all declarations and constants
 
 	//change directory
